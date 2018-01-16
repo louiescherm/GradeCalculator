@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<select id="categories">
+    <option value="1">quiz</option>
+    <option value="2">project</option>
+    <option value="3">participation</option>
+</select>
+
+<button onclick="calculateCurrentGrade()">go</button>
+<div id="board"></div>
+<input type="text" id="Grade Calculator" placeholder="quiz average">
+<button onclick="guess()">send it</button>
+<input type="text" id="Grade Calculator" placeholder="project average">
+<button onclick="guess()">send it</button>
+<input type="text" id="Grade Calculator" placeholder="positive participation">
+<button onclick="guess()">send it</button>
+<button onclick="calculateGradeNeeded()">go</button>
+
+</body>
+</html>
